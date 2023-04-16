@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, "Arial Rounded MT Bold", serif;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 20px;
+    opacity: 50%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: green;
+}
+
+.title{
+    background-color: cornflowerblue;
+    opacity: 50%;
+    color: black;
+    padding: 20px;
+    display: flex;
+}
+
+body{
+    background-image: url("images/eco.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.page-title{
+    padding: 20px;
+}
+
+#myButton.clicked {
+    background-color: yellow;
+    color: black;
+}
+
+.footer{
+    background-color:#333;
+}
+
+.upload{
+    padding: 20px;
+    margin-left: 20px;
+    width: 200px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+
+
+}
+
+.img{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.home-text{
+    width: 500px;
+    margin-left: 20px;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    opacity: 90%;
+    font-size: 15px;
+}
+
+.video1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.taskbutton{
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+
+.subtitel{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    border-radius: 20px;
+    width: 180px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.opdrachten{
+
+    margin-top: 20px;
+    width: 1000px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    opacity: 90%;
+    font-size: 15px;
+
+}
+
+.opdrachtvideo{
+    margin-top: 20px;
+}
+
+.keurmerk-image{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.subtitel2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: orangered;
+    border-radius: 20px;
+    width: 180px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.greenstuff-image{
+    margin-top: 20px;
+    width: 500px;
+    height: 275px;
+}
+
+.knutselfoto{
+    width: 500px;
+    height: 200px;
+}
+
+.windmillNL{
+    width: 500px;
+    height: 500px;
+}
+
+.world{
+    width: 500px;
+    height: 500px;
+}
