@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aardrijkskunde</title>
+    <link rel="stylesheet" href="../css/Index.css">
+    <h1 class="title">Project Duurzaamheid</h1>
+</head>
+<body>
+<nav>
+    <ul class="menu">
+        <li><a class="btn" href="Home.html">Home</a></li>
+        <li><a class="btn" href="Submit.html">Inleveren</a></li>
+        <li><a class="nav-link" href="Aardrijkskunde.html">Aardrijkskunde</a></li>
+        <li><a class="nav-link" href="Geschiedenis.html">Geschiedenis</a></li>
+        <li><a class="nav-link" href="Economie.html">Economie</a></li>
+        <li><a class="nav-link" href="MensMaatschappij.html">Mens & Maatschappij</a></li>
+    </ul>
+</nav>
+<h1 class="page-title">Aardrijkskunde</h1>
+<h2 class="subtitel">Theorie</h2>
+
+
+<button onclick="myFunction()" class="taskbutton">Globalisering</button>
+<button onclick="myFunction2()" class="taskbutton">Data center</button>
+
+
+<div id="myDIV" class="opdrachten" hidden>
+    <h2>Globarisering</h2>
+    Globalisering is een doorgaand proces van internationale uitwisseling van mensen, goederen,
+    geld, en informatie. Deze wereldwijde integratie heeft gezorgd voor onderlinge relaties tussen
+    gebieden en dat landen onderling steeds afhankelijker van elkaar worden.<br> <br>
+
+    Er zijn 3 soorten globalisering te onderscheiden:<br>
+    <LI><b>Economische globalisering</b>. Denk hierbij aan dingen als vrij verkeer van arbeidskracht en een
+        verminderd belang van de fysieke afstand tussen de plaats van productie en de afzetmarkt.</LI>
+    <LI><b>Politieke globalisering</b>. Bijvoorbeeld de afname van het belang van nationale overheden en minder soevereiniteit
+        van staten. Een voorbeeld waarin dit te zien is, is de EU.</LI>
+    <LI> <b>Culturele globalisering</b>. Dit is bijvoorbeeld te zien aan Starbucks of McDonald's filialen
+        die je overal ter wereld ziet. Ook staan er bijvoorbeeld gebedshuizen voor elk
+        geloof in Nederland (synagoge, moskee).</LI><br><br>
+
+    <img class="world" src="../images/world.png">
+
+</div>
+
+<div hidden id="myDIV2" class="opdrachten">
+    <h2>Data center </h2>
+    Nederland wil duurzamer worden en minder afhankelijk zijn van fossiele brandstoffen. Het doel is dat in 2023
+    zestien procent van de energievoorzieningen groen is. Het terugdringen van de CO2-uitstoot is hierbij een
+    belangrijk doel. Daarmee hoopt men te voorkomen dat de aarde verder opwarmt. Nederland gebruikt echter relatief
+    veel steenkool, aardolie en aardgas. In 2015 werden er zelfs nog meer kolencentrales geopend! Maar, er wordt ook
+    een aantal gesloten.
+    Om het gebruik van duurzame energie te stimuleren geeft de overheid soms geld aan producenten en consumenten.
+    Dit noem je subsidies. Elektriciteitscentrales krijgen dit bijvoorbeeld wanneer ze biomassa meestoken en particulieren
+    als ze zonnepanelen op hun dak zetten.<br> <br>
+
+    De overgang naar een duurzame energievoorziening hoeft niet heel ingrijpend te zijn. Neem <b>warmtekrachtkoppeling</b>.
+    Hierbij wordt warmte afkomstig van bijvoorbeeld een elektriciteitscentrale niet via het koelwater geloosd, maar
+    nuttig gebruikt om een kantoor of zwembad mee te verwarmen. De <b>afvalverbrandingsinstallatie</b> in Alkmaar levert op
+    deze manier restwarmte aan het AZ-stadion. Daar zie je niks van, maar soms is duurzame energie wel zichtbaar.
+    Tel maar eens het aantal windmolens rondom het IJsselmeer!<br> <br>
+
+    Overigens kun je duurzame energie vanuit meerdere invalshoeken bekijken. In de aardrijkskunde noemen we
+    dit dimensies. Er is de natuurlijk, sociaal-culturele, economische en politieke dimensie.
+    Een kolencentrale mag dan vervuilend zijn (natuurlijke dimensie), het is goedkopere energie
+    dan van een offshore windpark (economische dimensie). Als de overheid energiebesparing stimuleert
+    (politieke dimensie), gaan mensen hopelijk zuiniger met energie om (sociaal-culturele dimensie).<br><br>
+
+    <a href="https://nos.nl/artikel/2398089-microsoft-mag-verder-bouwen-
+    aan-een-datacenter-in-noord-holland">Nieuwsartikel Data center Noord-Holland<a/>
+        <br>
+        <br>
+        <img class="windmillNL" src="../images/windmillsNL.png">
+
+
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function myFunction2() {
+        var x = document.getElementById("myDIV2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+</script>
+<script type="text/javascript" src="../js/Index.js"></script>
+</body>
+<footer></footer>
+</html>
