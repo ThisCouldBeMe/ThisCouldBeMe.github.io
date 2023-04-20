@@ -50,18 +50,6 @@
         display: block;
         text-align: left;
     }
-    .video1{
-        margin-top: 600px;
-        color: white;
-        position: absolute;
-        height: 400px;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        float: left;
-        margin-left: 3px;
-        margin-bottom: 20px;
-    }
 }
 
 .homeimage{
@@ -123,30 +111,24 @@ html{
 }
 
 .subtitel{
-    margin-top: 20px;
     color: white;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    height: 60px;
-    border-radius: 20px;
-    padding: 10px;
-
-
+    background-color: #04AA6D;
+    width: 100%
 
 }
 
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 200px;
     background-color: #04AA6D;
-    margin-top: 900px;
+    color: white;
+    text-align: center;
 }
 
 .taskbutton1{
-    width: 200px;
     text-align: center;
     background-color: orange;
     color: white;
@@ -156,6 +138,7 @@ footer{
     border: none;
     padding: 15px 25px;
     text-decoration: none;
+    opacity: 100%;
 
 }
 
@@ -169,29 +152,9 @@ footer{
 }
 
 .button-container{
-    margin-top: 780px;
-    display: flex;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-@media screen and (max-width: 650px) {
-    .button-container{
-        display: grid;
-        margin-top: 1050px;
-    }
-    .taskbutton{
-
-        align-items: center;
-        width: 200px;
-        text-align: center;
-        color: white;
-        height: 60px;
-        font-size: 20px;
-
-    }
+    display: grid;
+    width: 100%;
+    margin-top: 20px;
 
 }
 
@@ -206,41 +169,26 @@ footer{
 }
 
 .opdracht-global{
-    margin-top: 550px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    width: 100%;
     background-color: white;
-    opacity: 80%;
+    opacity: 90%;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 20px;
 }
 
-@media screen and (max-width: 650px) {
-    .opdracht-global{
-        margin-top: 700px;
-    }
+.outer-opdracht{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 10%;
 }
+
 
 .world-img{
     width: 20%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-    margin-top: 200px;
-}
-
-@media screen and (max-width: 650px) {
-    .world-img{
-        margin-top: 200px;
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    footer{
-        margin-top: 1150px;
-    }
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
