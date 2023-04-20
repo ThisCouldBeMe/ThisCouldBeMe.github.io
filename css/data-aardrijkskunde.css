@@ -50,18 +50,6 @@
         display: block;
         text-align: left;
     }
-    .video1{
-        margin-top: 600px;
-        color: white;
-        position: absolute;
-        height: 400px;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        float: left;
-        margin-left: 3px;
-        margin-bottom: 20px;
-    }
 }
 
 .homeimage{
@@ -123,26 +111,11 @@ html{
 }
 
 .subtitel{
-
     color: white;
     text-align: center;
     background-color: #04AA6D;
-    width: 100%
-
-
-}
-
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: #04AA6D;
-    color: white;
-    text-align: center;
 }
-
-
 
 .taskbutton1{
     text-align: center;
@@ -167,28 +140,10 @@ footer{
     outline: none;
 }
 
-.button-container{
+.button-container {
     display: grid;
     width: 100%;
     margin-top: 20px;
-
-}
-
-@media screen and (max-width: 650px) {
-    .button-container{
-        display: grid;
-    }
-    .taskbutton{
-
-        align-items: center;
-        width: 200px;
-        text-align: center;
-        color: white;
-        height: 60px;
-        font-size: 20px;
-
-    }
-
 }
 
 .button-explain{
@@ -217,29 +172,12 @@ footer{
     padding-bottom: 10%;
 }
 
-@media screen and (max-width: 650px) {
-    .opdracht-global{
-        margin-top: 50px;
-    }
-}
 
-
-@media screen and (max-width: 650px) {
-    footer{
-        margin-top: 10px;
-    }
-}
 
 .world-img{
     width: 20%;
-    float: left;
+    float: right;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-@media screen and (max-width: 650px) {
-    .world-img{
-        width: 60%;
-    }
 }

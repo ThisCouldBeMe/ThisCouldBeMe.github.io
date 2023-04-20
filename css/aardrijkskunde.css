@@ -125,26 +125,23 @@ html{
 }
 
 .subtitel{
-    margin-top: 40px;
     color: white;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    height: 60px;
-    border-radius: 20px;
-    padding: 10px;
+    background-color: #04AA6D;
+    width: 100%
 
 
 
 }
 
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 60px;
     background-color: #04AA6D;
-    margin-top: 500px;
+    color: white;
+    text-align: center;
 }
 
 .taskbutton1{
@@ -226,6 +223,8 @@ footer{
     color: white;
     text-align: center;
     width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .opdracht-global{

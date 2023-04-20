@@ -123,24 +123,16 @@ html{
 }
 
 .subtitel{
-    margin-top: 40px;
     color: white;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    height: 60px;
-    border-radius: 20px;
-    padding: 10px;
+    background-color: #04AA6D;
+    width: 100%
 }
 
 .button-container{
-    margin-top: 750px;
-    display: flex;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: grid;
+    width: 100%;
+    margin-top: 20px;
 
 }
 
@@ -155,7 +147,6 @@ html{
 }
 
 .taskbutton1{
-    width: 200px;
     text-align: center;
     background-color: orange;
     color: white;
@@ -165,6 +156,7 @@ html{
     border: none;
     padding: 15px 25px;
     text-decoration: none;
+    opacity: 100%;
 }
 
 .taskbutton1:hover{
@@ -174,7 +166,6 @@ html{
 @media screen and (max-width: 650px) {
     .button-container {
         display: grid;
-        margin-top: 700px;
     }
 
     .taskbutton2{
@@ -201,29 +192,21 @@ html{
 }
 
 .opdracht-duurzaamheid{
-    margin-top: 600px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    width: 100%;
     background-color: white;
-    opacity: 80%;
+    opacity: 90%;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 20px;
 }
 
-footer{
-    width: 100%;
-    height: 60px;
-    background-color: #04AA6D;
-    margin-top: 900px;
+.outer-opdracht{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 10%;
 }
 
-@media screen and (max-width: 650px) {
-    .opdracht-duurzaamheid{
-        margin-top: 500px;
-    }
-}
 
 .greenstuff-image{
     width: 20%;
@@ -234,30 +217,13 @@ footer{
     margin-top: 200px;
 }
 
-@media screen and (max-width: 650px) {
-    .greenstuff-image{
-        margin-top: 180px;
-        width: 60%;
-    }
-}
 
 .opdrachtvideo{
-    margin-top: 300px;
     color: white;
-    position: absolute;
     height: 400px;
-    left: 50%;
-    width: 49.4%;
-    transform: translate(-50%, -50%);
-    float: left;
-    margin-left: 3px;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
-@media screen and (max-width: 650px) {
-    .opdrachtvideo {
-        width: 100%;
-        height: 280px;
-        margin-top: 200px;
-    }
-}
