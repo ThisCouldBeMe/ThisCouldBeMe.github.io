@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aardrijkskunde</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/data-aardrijkskunde.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <p>Welkom op de website van</p>
+  <h1>Project Duurzaamheid</h1>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="Aardrijkskunde.html" class="active">Aardrijkskunde</a>
+  <a href="Economie.html">Economie</a>
+  <a href="MensMaatschappij.html">Mens & Maatschappij</a>
+  <a href="Submit.html">Inleveren</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction5()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<h1 class="page-title">Aardrijkskunde</h1>
+<h2 class="subtitel">Theorie
+</h2>
+
+<div class="outer-opdracht">
+  <div class="opdracht-global" >
+    <h2>Milieuorganisaties</h2>
+    De Verenigde Naties verwachten dat de totale wereldbevolking in 2050 uit bijna tien miljard mensen zal bestaan.
+    Is er wel ruimte voor al deze mensen en trekt onze Aarde dat wel? Op dit moment is dat antwoord: nee. Ieder
+    mens heeft grond nodig om op te leven. Hierbij kun je denken aan je eigen huis, maar ook aan de wegen die
+    jij straks gaat gebruiken met de auto of een scooter. De ecologische voetafdruk wordt gezien als een soort
+    meetinstrument waarbij gekeken wordt naar iemands leefstijl. Hoeveel ruimte neem jij in van de Aarde met
+    jouw leefstijl? Er wordt dus gekeken naar jouw impact op de Aarde.<br><br>
+
+    De grootte van jouw voetafdruk is erg afhankelijk van jouw consumpties. Als jouw consumpties voor veel
+    uitstoot van koolstofdioxide (CO2) zorgen, heb jij een grote ecologische voetafdruk. Voorbeelden hiervan
+    zijn vlees eten, kleding aanschaffen en reizen met het vliegtuig. Er zijn wereldwijd veel (milieu)organisaties
+    die de ecologische voetafdruk van mensen willen verkleinen. Want het lijkt erop dat wij onze wereld aan het
+    uitputten zijn.
+
+    Kijk snel wat jouw ecologische voetafdruk is door de test te doen via de volgende link:<br><br>
+
+    <a href="https://voetafdruktest.wwf.nl">Doe de voetafdruk test!</a>
+
+    <div class="button-container">
+      <a href="Aardrijkskunde.html"  class="taskbutton1">Terug</a>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="../js/Index.js"></script>
+</body>
+<style>/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+</style>
+
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction5() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+<footer></footer>
+</html>
