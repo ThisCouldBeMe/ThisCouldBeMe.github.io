@@ -1,0 +1,197 @@
+/* NAVBAR */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 650px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.homeimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.centered {
+    position: absolute;
+
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("../images/eco.jpg");
+
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    /* Full height */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    margin-bottom: 500px;
+    left: 50%;
+    top: 2.5%;
+    transform: translate(-50%);
+    z-index: 2;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    object-fit: cover;
+    min-width: 100%
+}
+
+body{
+    background-image: url("../images/eco.jpg");
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, "Arial Rounded MT Bold", serif;
+}
+
+.page-title{
+    color: white;
+    text-align: center;
+    background-color: #04AA6D;
+    width: 100%
+}
+
+.home-text{
+    width: 100%;
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: orange;
+    padding: 2%;
+    font-weight: bold;
+
+
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #04AA6D;
+}
+
+
+
+.video1{
+    margin-top: 2%;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .video1{
+        width: 100%;
+        height: 280px;
+    }
+
+    .home-text{
+        margin-top: 2%;
+    }
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+}
+

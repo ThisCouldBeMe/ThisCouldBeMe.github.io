@@ -91,10 +91,11 @@ body, html {
 
 .bg-image {
     /* The image used */
-    background-image: url("../images/lightbulb.jpg");
+    background-image: url("../images/eco.jpg");
 
     /* Add the blur effect */
-
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
     /* Full height */
 
     /* Center and scale the image nicely */
@@ -130,7 +131,7 @@ body, html {
 }
 
 body{
-    background-image: url("../images/lightbulb.jpg");
+    background-image: url("../images/eco.jpg");
     width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
