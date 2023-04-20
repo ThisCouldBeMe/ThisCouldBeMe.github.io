@@ -118,12 +118,13 @@ body, html {
     min-width: 100%
 }
 
-body{
-    background-image: url("../images/eco.jpg");
-    width: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+html{
+    background: url("../images/eco.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 * {
